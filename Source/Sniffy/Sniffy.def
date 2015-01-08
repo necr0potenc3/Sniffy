@@ -1,0 +1,11 @@
+; Sniffy.def
+
+LIBRARY      "Sniffy"
+DESCRIPTION  'Sniffy Dynamic Link Library'
+
+EXPORTS
+	GetErrorText @1
+	GetInfoText @2
+	Install @3
+
+SECTIONS
